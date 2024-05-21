@@ -1,0 +1,62 @@
+
+.magicpart {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    gap: 5rem;
+    margin-left: 4rem;
+}
+
+
+@media (max-width: 1200px) {
+    .magicpart {
+        font-size: 2rem;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .magicpart {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        gap: 3rem;
+    }
+}
+
+.magicpart p {
+    font-size: 1.1rem;
+}
+
+.magicpartleft {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.magicpartleft img {
+    background: transparent;
+    width: 20px;
+    margin-left: 1rem;
+}
+
+.magicpartleft button {
+    width: 20rem;
+    height: 3.5rem;
+    background: linear-gradient(90deg, #5E11FF 0%, #F87516 100%);
+    border-radius: 1.3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .magicpartleft button {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}

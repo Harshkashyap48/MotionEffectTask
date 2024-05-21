@@ -1,0 +1,17 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+
+
+
+body{
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(0, 0, 15, 0.897);
+  width: 100%;
+  height: auto;
+  font-family:'Sora' , sans-serif, 'outfit'  ;
+  
+}
+

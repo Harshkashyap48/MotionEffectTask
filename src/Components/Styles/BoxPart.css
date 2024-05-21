@@ -1,0 +1,101 @@
+
+.boxpart{
+    color: white;
+    margin-top: 5rem;
+}
+.boxpart img{
+    width: 80%;
+}
+
+.boxpart h3{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.mainbox{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.mainbox h4{
+    font-size: 3rem;
+}
+
+.boxleft, .boxright{
+    padding: 0 2rem 2rem 2rem;
+    width: 35%;
+    background-color: rgba(10, 1, 37, 0.221);
+    border-radius: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+    .mainbox {
+        gap: 2rem;
+        align-items: center; 
+    }
+    .boxleft, .boxright {
+        width: 45%; 
+    }
+    .boxpart img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .boxleft, .boxright {
+        width: 80%; 
+        margin-top: 2rem; 
+    }
+    .boxright {
+        margin-top: 4rem; 
+    }
+    .boxpart img{
+        width: 90%;
+    }
+    .mainbox {
+        gap: 2rem;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .boxpart h3 {
+        font-size: 2.5rem; 
+    }
+    .mainbox h4 {
+        font-size: 2.5rem;
+    }
+    .boxleft, .boxright {
+        padding: 1rem; 
+    }
+    .boxpart img{
+        width: 90%;
+    }
+    .mainbox {
+        gap: 2rem;
+        align-items: center; 
+    }
+}
+
+@media (max-width: 576px) {
+    .boxpart h3 {
+        font-size: 2rem; 
+    }
+    .mainbox h4 {
+        font-size: 2rem;
+    }
+    .boxleft, .boxright {
+        padding: 1rem;
+    }
+    .boxpart img{
+        width: 90%;
+    }
+    .mainbox {
+        gap: 2rem;
+        align-items: center; 
+    }
+}

@@ -1,0 +1,12 @@
+
+span{
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+
+}
+p{
+    font-size: 1rem;
+    color: rgb(147, 146, 146);
+}

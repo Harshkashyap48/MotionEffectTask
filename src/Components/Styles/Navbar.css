@@ -1,0 +1,51 @@
+.Header {
+    width: 97%;
+    top: 0;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(57, 53, 53);
+    position: fixed;
+}
+
+
+@media (max-width: 768px) {
+    .Header {
+       
+      
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.Header img {
+    width: 10rem;
+    height: 5rem;
+}
+
+
+@media (max-width: 768px) {
+    .Header img {
+        margin-bottom: 1rem;
+    }
+}
+
+.Header button {
+    background-color: rgb(104, 240, 104);
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+}
+
+
+@media (max-width: 768px) {
+    .Header button {
+       margin-right: 1rem;
+        font-size: 0.9rem;
+    }
+}
