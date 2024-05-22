@@ -7,6 +7,9 @@ span{
 
 }
 p{
-    font-size: 1rem;
-    color: rgb(147, 146, 146);
+    color: #EEE5FFBD;
+    font-family: "Outfit", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.6em;
 }

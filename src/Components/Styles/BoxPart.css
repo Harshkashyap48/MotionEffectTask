@@ -24,7 +24,14 @@
     font-size: 3rem;
 }
 
-.boxleft, .boxright{
+.boxleft{
+    padding: 0 2rem 2rem 2rem;
+    width: 35%;
+    background-color: rgba(10, 1, 37, 0.221);
+    border-radius: 2rem;
+}
+.boxright{
+    margin-top: 18rem;
     padding: 0 2rem 2rem 2rem;
     width: 35%;
     background-color: rgba(10, 1, 37, 0.221);

@@ -1,12 +1,13 @@
 .Header {
     width: 97%;
     top: 0;
-    height: 0.4rem;
+    height: 0.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: rgb(57, 53, 53);
+    padding-bottom: 1.3rem;
+    background-color:#262626;
     position: fixed;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .Header button {
-    background-color: rgb(104, 240, 104);
+    background-color: #82B440;
     color: white;
     width: 6rem;
     height: 2rem;

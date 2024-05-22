@@ -1,9 +1,9 @@
 
 .header {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: 12rem;
 }
 @media (max-width: 1200px) {

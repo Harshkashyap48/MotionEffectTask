@@ -3,11 +3,12 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    color: white;
     margin-top: 5rem;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     gap: 5rem;
     margin-left: 4rem;
+    color: #EEE5FF;
+   font-family: "Sora", Sans-serif;
 }
 
 
@@ -35,6 +36,7 @@
 .magicpartleft {
     padding-left: 1rem;
     padding-right: 2rem;
+    width: 70%;
 }
 
 .magicpartleft img {
